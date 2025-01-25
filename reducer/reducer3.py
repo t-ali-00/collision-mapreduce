@@ -1,7 +1,7 @@
 import sys
 
 def reducer_average_killed():
-    # Initialize variables to keep track of the current borough, total killed, total injured, and count
+    # Initialise variables to keep track of the current borough, total killed, total injured, and count
     (last_key, total_killed, total_injured, count) = (None, 0, 0, 0)
     
     # Read input from sys.stdin
