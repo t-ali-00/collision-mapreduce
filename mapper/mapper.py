@@ -8,8 +8,8 @@ def process_input_mapper_motorcycle_accidents(line):
     val = line.strip()
     values = val.split(',')
     if len(values) >= 11:  # Ensure there are at least 11 elements
-        borough = values[1].strip()  # Index 2 for borough
-        num_killed = values[11].strip()  # Index 9 for num_killed
+        borough = values[1].strip()  # Index 1 for borough
+        num_killed = values[11].strip()  # Index 11 for num_killed
         num_injured = values[10].strip()  # Index 10 for num_injured
         return borough, num_killed, num_injured
     else:
